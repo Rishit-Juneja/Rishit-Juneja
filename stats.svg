@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="190" viewBox="0 0 420 190" role="img" aria-label="GitHub stats">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/><stop offset="100%" stop-color="#131c26"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#37ff7e"><animate attributeName="stop-color" values="#37ff7e;#58a6ff;#a371f7;#37ff7e" dur="6s" repeatCount="indefinite"/></stop>
+      <stop offset="100%" stop-color="#58a6ff"><animate attributeName="stop-color" values="#58a6ff;#a371f7;#37ff7e;#58a6ff" dur="6s" repeatCount="indefinite"/></stop>
+    </linearGradient>
+  </defs>
+  <rect width="420" height="190" rx="14" fill="url(#bg)" stroke="#212b3a" stroke-width="1.5"/>
+  <text x="20" y="32" font-family="monospace" font-size="15" font-weight="bold" fill="#37ff7e">$ github stats --live</text>
+  <text x="20" y="55" font-family="monospace" font-size="12" fill="#8b949e">public repos</text>
+  <rect x="20" y="63" width="380" height="6" rx="3" fill="#161e29"/>
+  <rect x="20" y="63" width="19" height="6" rx="3" fill="url(#bar)"><animate attributeName="width" values="0;19" dur="2s" fill="freeze"/></rect>
+  <text x="408" y="71" font-family="monospace" font-size="13" fill="#e6edf3" text-anchor="end">2</text>
+  <text x="20" y="95" font-family="monospace" font-size="12" fill="#8b949e">followers</text>
+  <rect x="20" y="103" width="380" height="6" rx="3" fill="#161e29"/>
+  <rect x="20" y="103" width="10" height="6" rx="3" fill="url(#bar)"><animate attributeName="width" values="0;10" dur="2s" fill="freeze"/></rect>
+  <text x="408" y="111" font-family="monospace" font-size="13" fill="#e6edf3" text-anchor="end">1</text>
+  <text x="20" y="135" font-family="monospace" font-size="12" fill="#8b949e">following</text>
+  <rect x="20" y="143" width="380" height="6" rx="3" fill="#161e29"/>
+  <rect x="20" y="143" width="0" height="6" rx="3" fill="url(#bar)"/>
+  <text x="408" y="151" font-family="monospace" font-size="13" fill="#e6edf3" text-anchor="end">0</text>
+  <text x="20" y="176" font-family="monospace" font-size="11" fill="#484f58">profile created 2025 · the numbers only go up</text>
+</svg>
