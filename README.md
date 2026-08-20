@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="hero.svg" alt="Rishit Juneja — animated hero" width="100%" />
+  <img src="https://cdn.jsdelivr.net/gh/Rishit-Juneja/Rishit-Juneja@main/hero.svg" alt="Rishit Juneja — animated hero" width="100%" />
 </p>
 
 <p align="center">
-  <img src="ascii_live.gif" alt="Live ASCII animation" width="85%" />
+  <img src="https://cdn.jsdelivr.net/gh/Rishit-Juneja/Rishit-Juneja@main/ascii_live.gif" alt="Live ASCII animation" width="85%" />
 </p>
 
 <p align="center">
@@ -54,7 +54,7 @@ $ whoami --info
 ### 📊 The Numbers
 
 <p align="center">
-  <img src="stats.svg" alt="Self-hosted stats card" width="420" />
+  <img src="https://cdn.jsdelivr.net/gh/Rishit-Juneja/Rishit-Juneja@main/stats.svg" alt="Self-hosted stats card" width="420" />
 </p>
 
 [![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Rishit-Juneja&bg_color=0d1117&color=37ff7e&line=58a6ff&point=ff6b6b&area=true&hide_border=true)](https://github.com/Rishit-Juneja)
