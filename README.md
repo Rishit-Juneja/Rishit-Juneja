@@ -26,7 +26,7 @@ $ whoami --info
 | Project | What it does | Status |
 |---|---|---|
 | 📰 [**hindi-newspaper-generator**](https://github.com/Rishit-Juneja/hindi-newspaper-generator) | 8-page Hindi broadsheet PDF from live Google News RSS | ✅ live |
-| 🎬 **clipper** | Automated YouTube channel clipper — find · cut · title · schedule · upload | 🚧 next |
+| 🎬 [**clipper**](https://github.com/Rishit-Juneja/clipper) | Automated YouTube Shorts factory — whisper → AI → ffmpeg → auto-upload | ✅ live |
 | 🤖 **OmniOperator** | Multi-model AI agent orchestrator (Groq / Gemini / GLM) | 🚧 soon |
 | 🖥️ **screen-mcp** | Full computer control via MCP — vision · mouse · keyboard · OCR | 🚧 soon |
 | 🎨 **ascii-generator** | 16-mode ASCII animation engine — image → ASCII, text stamps | 🚧 soon |
