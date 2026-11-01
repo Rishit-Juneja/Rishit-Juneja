@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/Rishit-Juneja/Rishit-Juneja@main/hero.svg" alt="Rishit Juneja — The Rishit Experience, Vol. 01" width="100%" />
+  <img src="https://cdn.jsdelivr.net/gh/Rishit-Juneja/Rishit-Juneja@main/hero.svg?v=2" alt="Rishit Juneja — The Rishit Experience, Vol. 01" width="100%" />
 </p>
 
 <p align="center">
@@ -11,7 +11,7 @@
 <h3 align="center"><i>“I build machines that watch, listen, and move without noise.”</i></h3>
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/Rishit-Juneja/Rishit-Juneja@main/panels.svg" alt="See. Listen. Think. Break. Ship." width="100%" />
+  <img src="https://cdn.jsdelivr.net/gh/Rishit-Juneja/Rishit-Juneja@main/panels.svg?v=2" alt="See. Listen. Think. Break. Ship." width="100%" />
 </p>
 
 > **Plate 01 · The Operator** — B.Tech CSE (Cyber Security) at SRM University, Delhi, minor in Data Science &amp; AI from IIT Mandi.
@@ -21,12 +21,12 @@
 ## ⟢ The Shelf · *pick a spirit*
 
 <p align="center">
-  <a href="https://github.com/Rishit-Juneja/ai-attendance"><img src="https://cdn.jsdelivr.net/gh/Rishit-Juneja/Rishit-Juneja@main/cards/sentinel.svg" width="49%" alt="Attendance Sentinel" /></a>
-  <a href="https://github.com/Rishit-Juneja?tab=repositories"><img src="https://cdn.jsdelivr.net/gh/Rishit-Juneja/Rishit-Juneja@main/cards/office.svg" width="49%" alt="AI Office" /></a>
-  <a href="https://github.com/Rishit-Juneja?tab=repositories"><img src="https://cdn.jsdelivr.net/gh/Rishit-Juneja/Rishit-Juneja@main/cards/jarvis.svg" width="49%" alt="Jarvis" /></a>
-  <a href="https://github.com/Rishit-Juneja?tab=repositories"><img src="https://cdn.jsdelivr.net/gh/Rishit-Juneja/Rishit-Juneja@main/cards/sixth-sense.svg" width="49%" alt="Sixth Sense" /></a>
-  <a href="https://github.com/Rishit-Juneja/hindi-newspaper-generator"><img src="https://cdn.jsdelivr.net/gh/Rishit-Juneja/Rishit-Juneja@main/cards/gagan.svg" width="49%" alt="Gagan Express" /></a>
-  <a href="https://github.com/Rishit-Juneja/clipper"><img src="https://cdn.jsdelivr.net/gh/Rishit-Juneja/Rishit-Juneja@main/cards/clipper.svg" width="49%" alt="The Clipper" /></a>
+  <a href="https://github.com/Rishit-Juneja/ai-attendance"><img src="https://cdn.jsdelivr.net/gh/Rishit-Juneja/Rishit-Juneja@main/cards/sentinel.svg?v=2" width="49%" alt="Attendance Sentinel" /></a>
+  <a href="https://github.com/Rishit-Juneja?tab=repositories"><img src="https://cdn.jsdelivr.net/gh/Rishit-Juneja/Rishit-Juneja@main/cards/office.svg?v=2" width="49%" alt="AI Office" /></a>
+  <a href="https://github.com/Rishit-Juneja?tab=repositories"><img src="https://cdn.jsdelivr.net/gh/Rishit-Juneja/Rishit-Juneja@main/cards/jarvis.svg?v=2" width="49%" alt="Jarvis" /></a>
+  <a href="https://github.com/Rishit-Juneja?tab=repositories"><img src="https://cdn.jsdelivr.net/gh/Rishit-Juneja/Rishit-Juneja@main/cards/sixth-sense.svg?v=2" width="49%" alt="Sixth Sense" /></a>
+  <a href="https://github.com/Rishit-Juneja/hindi-newspaper-generator"><img src="https://cdn.jsdelivr.net/gh/Rishit-Juneja/Rishit-Juneja@main/cards/gagan.svg?v=2" width="49%" alt="Gagan Express" /></a>
+  <a href="https://github.com/Rishit-Juneja/clipper"><img src="https://cdn.jsdelivr.net/gh/Rishit-Juneja/Rishit-Juneja@main/cards/clipper.svg?v=2" width="49%" alt="The Clipper" /></a>
 </p>
 
 <p align="center"><sub>🔵 VISION · 🟢 AGENTS · 🟡 SIGNAL &nbsp;—&nbsp; more field reports: <a href="https://github.com/Rishit-Juneja/kisaan-sathi">kisaan-sathi</a> · <a href="https://github.com/Rishit-Juneja/opsdesk">opsdesk</a></sub></p>
@@ -44,7 +44,7 @@
 ## ⟢ The Discipline · *break it to know it*
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/Rishit-Juneja/Rishit-Juneja@main/terminal.svg" alt="Terminal: whoami, CTF wargames, nmap, hacker-pentester-ai" width="100%" />
+  <img src="https://cdn.jsdelivr.net/gh/Rishit-Juneja/Rishit-Juneja@main/terminal.svg?v=2" alt="Terminal: whoami, CTF wargames, nmap, hacker-pentester-ai" width="100%" />
 </p>
 
 <p align="center">
