@@ -48,10 +48,6 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Rishit-Juneja&bg_color=0e0b0b&color=f4efe6&line=c8141f&point=ff2a1a&area=true&area_color=c8141f&hide_border=true&custom_title=Field%20activity" width="100%" />
-</p>
-
-<p align="center">
   <img src="https://raw.githubusercontent.com/Rishit-Juneja/Rishit-Juneja/output/snake.svg" alt="Snake eating the contribution graph" />
 </p>
 
