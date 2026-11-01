@@ -52,7 +52,7 @@
 </p>
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/Rishit-Juneja/Rishit-Juneja@output/snake.svg?v=2" alt="Snake eating the contribution graph" />
+  <img src="https://raw.githubusercontent.com/Rishit-Juneja/Rishit-Juneja/output/snake.svg" alt="Snake eating the contribution graph" />
 </p>
 
 <p align="center"><b><i>The Rishit Experience</i></b> · Vol. 01 · Delhi, 28.61° N, 77.20° E<br/><sub>Good work starts quietly. Tell me what you're building.</sub></p>
