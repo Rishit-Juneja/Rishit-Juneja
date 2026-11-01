@@ -21,7 +21,7 @@
 ## ⟢ The Shelf · *pick a spirit*
 
 <p align="center">
-  <a href="https://github.com/Rishit-Juneja/ai-attendance"><img src="https://cdn.jsdelivr.net/gh/Rishit-Juneja/Rishit-Juneja@main/cards/sentinel.svg?v=2" width="49%" alt="Attendance Sentinel" /></a>
+  <a href="https://github.com/Rishit-Juneja?tab=repositories"><img src="https://cdn.jsdelivr.net/gh/Rishit-Juneja/Rishit-Juneja@main/cards/sentinel.svg?v=2" width="49%" alt="Attendance Sentinel" /></a>
   <a href="https://github.com/Rishit-Juneja/ai-office"><img src="https://cdn.jsdelivr.net/gh/Rishit-Juneja/Rishit-Juneja@main/cards/office.svg?v=2" width="49%" alt="AI Office" /></a>
   <a href="https://github.com/Rishit-Juneja/jarvis"><img src="https://cdn.jsdelivr.net/gh/Rishit-Juneja/Rishit-Juneja@main/cards/jarvis.svg?v=2" width="49%" alt="Jarvis" /></a>
   <a href="https://github.com/Rishit-Juneja?tab=repositories"><img src="https://cdn.jsdelivr.net/gh/Rishit-Juneja/Rishit-Juneja@main/cards/sixth-sense.svg?v=2" width="49%" alt="Sixth Sense" /></a>
