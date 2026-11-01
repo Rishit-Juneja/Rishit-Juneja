@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-label="See. Listen. Think. Break. Ship.">
+<defs>
+  <pattern id="h1" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="1.6" height="9" fill="#0e0b0b" opacity=".14"/></pattern>
+  <pattern id="dt" width="11" height="11" patternUnits="userSpaceOnUse"><circle cx="5.5" cy="5.5" r="1.8" fill="#0e0b0b" opacity=".28"/></pattern>
+  <pattern id="h2" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><rect width="2" height="10" fill="#0e0b0b" opacity=".16"/></pattern>
+  <pattern id="h3" width="10.5" height="10.5" patternUnits="userSpaceOnUse"><rect width="1.5" height="10.5" fill="#f4efe6" opacity=".08"/></pattern>
+  <clipPath id="eye"><path d="M10 70 C60 0 180 0 230 70 C180 140 60 140 10 70Z"/></clipPath>
+  <symbol id="vial" viewBox="0 0 140 380">
+    <path d="M52 84 L88 84 L90 112 C112 118 116 132 116 150 L116 340 C116 356 104 364 88 364 L52 364 C36 364 24 356 24 340 L24 150 C24 132 28 118 50 112Z" fill="currentColor" stroke="#0e0b0b" stroke-width="6" stroke-linejoin="round"/>
+    <rect x="36" y="150" width="10" height="140" rx="5" fill="#fff" opacity=".5"/>
+    <rect x="46" y="44" width="48" height="42" rx="6" fill="#efe8dc" stroke="#0e0b0b" stroke-width="5"/>
+  </symbol>
+  <style>
+    .p{opacity:0;transform-box:fill-box;transform-origin:center;animation:slam .55s cubic-bezier(.2,.9,.3,1.35) forwards}
+    @keyframes slam{from{opacity:0;transform:scale(1.25) rotate(-3deg)}to{opacity:1;transform:none}}
+    .w{font-family:'Bodoni Moda',Didot,Georgia,serif;font-style:italic;font-weight:900;font-size:34px;text-transform:uppercase}
+    .iris{animation:look 2.6s ease-in-out infinite}
+    @keyframes look{0%,100%{transform:translateX(0)}30%{transform:translateX(-30px)}60%{transform:translateX(28px)}}
+    .eq rect{transform-box:fill-box;transform-origin:50% 50%;animation:eq .5s ease-in-out infinite alternate}
+    @keyframes eq{from{transform:scaleY(.18)}to{transform:scaleY(1)}}
+    .nd{transform-box:fill-box;transform-origin:center;animation:nd .8s ease-in-out infinite alternate}
+    @keyframes nd{to{transform:scale(1.25)}}
+    .shackle{animation:sh 1.1s ease-in-out infinite}
+    @keyframes sh{0%,35%{transform:translateY(0)}55%,100%{transform:translateY(-18px)}}
+    .sv{animation:hop .55s cubic-bezier(.3,0,.3,1) infinite alternate}
+    @keyframes hop{to{transform:translateY(-16px)}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important;opacity:1!important}}
+  </style>
+</defs>
+<rect width="1200" height="400" fill="#0e0b0b"/>
+
+<!-- SEE -->
+<g class="p" style="animation-delay:.1s">
+  <rect x="18" y="18" width="560" height="176" fill="#f0dcc2" stroke="#0e0b0b" stroke-width="5"/><rect x="18" y="18" width="560" height="176" fill="url(#h1)"/>
+  <g transform="translate(250 44)">
+    <path d="M10 70 C60 0 180 0 230 70 C180 140 60 140 10 70Z" fill="#fff"/>
+    <g clip-path="url(#eye)"><g class="iris"><circle cx="120" cy="70" r="42" fill="#35b4ea" stroke="#0e0b0b" stroke-width="4"/><circle cx="120" cy="70" r="17" fill="#0e0b0b"/><circle cx="107" cy="57" r="7" fill="#fff"/></g></g>
+    <path d="M10 70 C60 0 180 0 230 70 C180 140 60 140 10 70Z" fill="none" stroke="#0e0b0b" stroke-width="6"/>
+  </g>
+  <g transform="rotate(-3 90 50)"><rect x="34" y="32" width="118" height="46" fill="#f4efe6" stroke="#0e0b0b" stroke-width="3"/><text x="46" y="67" class="w" fill="#0e0b0b">See.</text></g>
+</g>
+
+<!-- LISTEN -->
+<g class="p" style="animation-delay:.35s">
+  <rect x="594" y="18" width="380" height="176" fill="#f2df1a" stroke="#0e0b0b" stroke-width="5"/><rect x="594" y="18" width="380" height="176" fill="url(#dt)"/>
+  <g class="eq" fill="#0e0b0b" transform="translate(780 62) scale(.9)"><rect x="10" y="10" width="12" height="100" rx="6" style="animation-delay:-.1s"/><rect x="31" y="10" width="12" height="100" rx="6" style="animation-delay:-.35s"/><rect x="52" y="10" width="12" height="100" rx="6" style="animation-delay:-.2s"/><rect x="73" y="10" width="12" height="100" rx="6" style="animation-delay:-.45s"/><rect x="94" y="10" width="12" height="100" rx="6"/><rect x="115" y="10" width="12" height="100" rx="6" style="animation-delay:-.3s"/><rect x="136" y="10" width="12" height="100" rx="6" style="animation-delay:-.15s"/><rect x="157" y="10" width="12" height="100" rx="6" style="animation-delay:-.4s"/><rect x="178" y="10" width="12" height="100" rx="6" style="animation-delay:-.25s"/></g>
+  <g transform="rotate(-3 660 50)"><rect x="610" y="32" width="160" height="46" fill="#f4efe6" stroke="#0e0b0b" stroke-width="3"/><text x="622" y="67" class="w" fill="#0e0b0b">Listen.</text></g>
+</g>
+
+<!-- THINK -->
+<g class="p" style="animation-delay:.6s">
+  <rect x="990" y="18" width="192" height="364" fill="#5ddf6a" stroke="#0e0b0b" stroke-width="5"/><rect x="990" y="18" width="192" height="364" fill="url(#h2)"/>
+  <g transform="translate(1026 110) scale(1.0)">
+    <path d="M60 30 L24 90 L60 150 L96 90Z M60 30 L60 150 M24 90 L96 90 M60 150 L60 200" fill="none" stroke="#0e0b0b" stroke-width="4"/>
+    <g fill="#f4efe6" stroke="#0e0b0b" stroke-width="4"><circle class="nd" cx="60" cy="30" r="14"/><circle class="nd" cx="24" cy="90" r="12" style="animation-delay:-.3s"/><circle class="nd" cx="96" cy="90" r="12" style="animation-delay:-.6s"/><circle class="nd" cx="60" cy="150" r="14" style="animation-delay:-.2s"/><circle class="nd" cx="60" cy="200" r="10" style="animation-delay:-.5s"/></g>
+    <circle r="6" fill="#0e0b0b"><animateMotion dur="1.6s" repeatCount="indefinite" path="M60 30 L24 90 L60 150 L96 90Z"/></circle>
+    <circle r="5" fill="#c8141f"><animateMotion dur="2.2s" repeatCount="indefinite" path="M60 30 L60 150 L60 200"/></circle>
+  </g>
+  <g transform="rotate(-3 1050 50)"><rect x="1006" y="32" width="150" height="46" fill="#f4efe6" stroke="#0e0b0b" stroke-width="3"/><text x="1018" y="67" class="w" fill="#0e0b0b">Think.</text></g>
+</g>
+
+<!-- BREAK -->
+<g class="p" style="animation-delay:.85s">
+  <rect x="18" y="210" width="370" height="172" fill="#0e0b0b" stroke="#f4efe6" stroke-width="3"/><rect x="18" y="210" width="370" height="172" fill="url(#h3)"/>
+  <g transform="translate(220 222) scale(.95)">
+    <path class="shackle" d="M40 70 V45 a30 30 0 0 1 60 0 V70" fill="none" stroke="#f4efe6" stroke-width="12" stroke-linecap="round"/>
+    <rect x="22" y="68" width="96" height="78" rx="10" fill="#c8141f" stroke="#f4efe6" stroke-width="5"/>
+    <circle cx="70" cy="100" r="10" fill="#0e0b0b"/><rect x="66" y="104" width="8" height="22" fill="#0e0b0b"/>
+    <path d="M30 80 L52 96 L44 110 L66 124 L58 140" fill="none" stroke="#0e0b0b" stroke-width="3"/>
+  </g>
+  <g transform="rotate(-3 90 240)"><rect x="34" y="226" width="148" height="46" fill="#f4efe6" stroke="#0e0b0b" stroke-width="3"/><text x="46" y="261" class="w" fill="#0e0b0b">Break.</text></g>
+</g>
+
+<!-- SHIP -->
+<g class="p" style="animation-delay:1.1s">
+  <rect x="404" y="210" width="570" height="172" fill="#c8141f" stroke="#0e0b0b" stroke-width="5"/><rect x="404" y="210" width="570" height="172" fill="url(#h1)"/>
+  <g class="sv" style="color:#35b4ea"><use href="#vial" x="640" y="222" width="54" height="150"/></g>
+  <g class="sv" style="color:#5ddf6a;animation-delay:-.18s"><use href="#vial" x="730" y="222" width="54" height="150"/></g>
+  <g class="sv" style="color:#f2df1a;animation-delay:-.36s"><use href="#vial" x="820" y="222" width="54" height="150"/></g>
+  <g transform="rotate(-3 470 240)"><rect x="420" y="226" width="124" height="46" fill="#f4efe6" stroke="#0e0b0b" stroke-width="3"/><text x="432" y="261" class="w" fill="#0e0b0b">Ship.</text></g>
+</g>
+</svg>

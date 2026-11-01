@@ -18,7 +18,7 @@ jobs:
         with:
           github_user_name: Rishit-Juneja
           outputs: |
-            dist/snake.svg?color_snake=37ff7e&color_dots=0d1117,0a1f14,123524,1d5c3c,2d8a4e
+            dist/snake.svg?color_snake=ff2a1a&color_dots=161b22,3a0a0f,5c0610,8e0d17,c8141f
       - uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output

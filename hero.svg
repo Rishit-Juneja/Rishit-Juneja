@@ -1,49 +1,112 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="240" viewBox="0 0 900 240" role="img" aria-label="Rishit Juneja — cyber security student, IIT Madras minor">
-  <defs>
-    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#37ff7e"><animate attributeName="stop-color" values="#37ff7e;#58a6ff;#a371f7;#37ff7e" dur="7s" repeatCount="indefinite"/></stop>
-      <stop offset="50%" stop-color="#58a6ff"><animate attributeName="stop-color" values="#58a6ff;#a371f7;#37ff7e;#58a6ff" dur="7s" repeatCount="indefinite"/></stop>
-      <stop offset="100%" stop-color="#a371f7"><animate attributeName="stop-color" values="#a371f7;#37ff7e;#58a6ff;#a371f7" dur="7s" repeatCount="indefinite"/></stop>
-    </linearGradient>
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="4" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
-      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#1c2431" stroke-width="1"/>
-    </pattern>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Rishit Juneja — The Rishit Experience, Vol. 01">
+<defs>
+  <pattern id="hatch" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(38)"><rect width="1.7" height="7" fill="#0e0b0b"/></pattern>
+  <pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="6" cy="6" r="2" fill="#0e0b0b"/></pattern>
+  <radialGradient id="glow" cx="50%" cy="48%" r="60%"><stop offset="0" stop-color="#ff4630"/><stop offset=".5" stop-color="#c8141f"/><stop offset="1" stop-color="#5c0610"/></radialGradient>
+  <radialGradient id="orb" cx="38%" cy="32%" r="70%"><stop offset=".3" stop-color="#fff"/><stop offset=".62" stop-color="#f4efe6"/><stop offset="1" stop-color="#dccfbd"/></radialGradient>
+  <mask id="vign"><rect width="1200" height="560" fill="#fff"/><ellipse cx="600" cy="260" rx="250" ry="170" fill="#000"/></mask>
+  <style>
+    .serif{font-family:'Bodoni Moda','Bodoni 72',Didot,'Playfair Display',Georgia,'Times New Roman',serif}
+    .mono{font-family:ui-monospace,'SF Mono','IBM Plex Mono',Menlo,Consolas,monospace;font-weight:600;letter-spacing:.16em;text-transform:uppercase}
+    .rays{transform-origin:600px 260px;animation:spin 60s linear infinite}
+    @keyframes spin{to{transform:rotate(360deg)}}
+    .ch{opacity:0;transform-box:fill-box;transform-origin:50% 100%;animation:rise .9s cubic-bezier(.2,.85,.25,1.15) forwards}
+    @keyframes rise{from{opacity:0;transform:translateY(60px) rotate(9deg)}to{opacity:1;transform:none}}
+    .slide{opacity:0;animation:slide .8s cubic-bezier(.2,.8,.2,1) forwards}
+    @keyframes slide{from{opacity:0;transform:translateX(-30px)}to{opacity:1;transform:none}}
+    .sfx{opacity:0;transform-box:fill-box;transform-origin:center;animation:pop 4s cubic-bezier(.2,.9,.3,1.6) infinite}
+    @keyframes pop{0%,8%{opacity:0;transform:scale(0) rotate(-12deg)}14%{opacity:1;transform:scale(1.15) rotate(-8deg)}20%,60%{opacity:1;transform:scale(1) rotate(-8deg)}70%,100%{opacity:0;transform:scale(1.3) rotate(-8deg)}}
+    .orb{transform-box:fill-box;transform-origin:center;animation:pulse 2.8s ease-in-out infinite}
+    @keyframes pulse{50%{transform:scale(1.08)}}
+    .blink{animation:blink 1.2s steps(1) infinite}
+    @keyframes blink{50%{opacity:.25}}
+    .stamp{opacity:0;transform-box:fill-box;transform-origin:center;animation:stamp .5s cubic-bezier(.2,.9,.3,1.4) 1.9s forwards}
+    @keyframes stamp{from{opacity:0;transform:scale(2.4) rotate(-14deg)}to{opacity:1;transform:rotate(-6deg)}}
+    .web{stroke-dasharray:900;stroke-dashoffset:900;animation:draw 2.4s ease-out .2s forwards}
+    @keyframes draw{to{stroke-dashoffset:0}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important;opacity:1!important}}
+  </style>
+</defs>
 
-  <rect width="900" height="240" fill="#0d1117"/>
-  <rect width="900" height="240" fill="url(#grid)" opacity="0.5">
-    <animate attributeName="opacity" values="0.5;0.2;0.5" dur="4s" repeatCount="indefinite"/>
-  </rect>
+<!-- engraved red ground -->
+<rect width="1200" height="560" fill="url(#glow)"/>
+<g class="rays" opacity=".28">
+  <g id="r" fill="#0e0b0b"><path d="M600 260 L-400 230 L-400 290Z"/><path d="M600 260 L-400 230 L-400 290Z" transform="rotate(15 600 260)"/><path d="M600 260 L-400 230 L-400 290Z" transform="rotate(30 600 260)"/><path d="M600 260 L-400 230 L-400 290Z" transform="rotate(45 600 260)"/><path d="M600 260 L-400 230 L-400 290Z" transform="rotate(60 600 260)"/><path d="M600 260 L-400 230 L-400 290Z" transform="rotate(75 600 260)"/></g>
+  <use href="#r" transform="rotate(90 600 260)"/><use href="#r" transform="rotate(180 600 260)"/><use href="#r" transform="rotate(270 600 260)"/>
+</g>
+<rect width="1200" height="560" fill="url(#hatch)" opacity=".16"/>
+<rect width="1200" height="560" fill="url(#dots)" opacity=".22" mask="url(#vign)"/>
 
-  <!-- glitch layers -->
-  <text x="450" y="130" text-anchor="middle" font-family="monospace" font-size="66" font-weight="bold" fill="#37ff7e" opacity="0.25" filter="url(#glow)">
-    <animate attributeName="x" values="450;446;454;450;448;450" dur="5s" repeatCount="indefinite"/>
-    RISHIT JUNEJA
-  </text>
-  <text x="450" y="130" text-anchor="middle" font-family="monospace" font-size="66" font-weight="bold" fill="#a371f7" opacity="0.25" filter="url(#glow)">
-    <animate attributeName="x" values="450;455;447;450;452;450" dur="5s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.25;0;0.25;0.25;0.05;0.25" dur="3s" repeatCount="indefinite"/>
-    RISHIT JUNEJA
-  </text>
-  <text x="450" y="130" text-anchor="middle" font-family="monospace" font-size="66" font-weight="bold" fill="url(#grad)" filter="url(#glow)">
-    RISHIT JUNEJA
-  </text>
+<!-- web strands from the corner -->
+<g fill="none" stroke="#0e0b0b" stroke-width="2.5" opacity=".55" class="web">
+  <path class="web" d="M1200 0 L860 300 M1200 0 L980 330 M1200 0 L1100 340 M1200 0 L760 210 M1200 0 L720 70"/>
+  <path class="web" d="M1100 90 Q1060 60 1050 30 M1040 150 Q980 100 960 60 M980 210 Q900 150 860 110 M1180 110 Q1140 120 1120 160 M1150 190 Q1090 190 1060 230"/>
+</g>
 
-  <text x="450" y="170" text-anchor="middle" font-family="monospace" font-size="20" fill="#8b949e">
-    BTech CSE — Cyber Security @ SRMUH · Minor DS-AI @ IIT Madras
-  </text>
-  <rect x="862" y="155" width="12" height="20" fill="#37ff7e">
-    <animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.45;0.5;0.95;1;1" dur="1.1s" repeatCount="indefinite"/>
-  </rect>
+<!-- header strip -->
+<g class="slide" style="animation-delay:.1s">
+  <rect x="44" y="38" width="520" height="34" fill="#0e0b0b"/>
+  <rect x="40" y="34" width="520" height="34" fill="#f4efe6" stroke="#0e0b0b" stroke-width="2"/>
+  <text x="56" y="57" class="mono" font-size="12" fill="#0e0b0b">Portfolio · Vol. 01 · Delhi 28.61° N, 77.20° E</text>
+</g>
 
-  <!-- floating particles -->
-  <circle cx="80" cy="200" r="2" fill="#37ff7e"><animate attributeName="cy" values="220;40;220" dur="8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="8s" repeatCount="indefinite"/></circle>
-  <circle cx="180" cy="200" r="2" fill="#58a6ff"><animate attributeName="cy" values="230;30;230" dur="11s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="11s" repeatCount="indefinite"/></circle>
-  <circle cx="820" cy="200" r="2" fill="#a371f7"><animate attributeName="cy" values="220;40;220" dur="9s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="9s" repeatCount="indefinite"/></circle>
-  <circle cx="720" cy="200" r="1.5" fill="#37ff7e"><animate attributeName="cy" values="230;30;230" dur="10s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="10s" repeatCount="indefinite"/></circle>
-  <circle cx="120" cy="200" r="1.5" fill="#a371f7"><animate attributeName="cy" values="225;35;225" dur="12s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="12s" repeatCount="indefinite"/></circle>
+<!-- orb -->
+<g class="orb">
+  <circle cx="960" cy="150" r="92" fill="#fff" opacity=".12"/>
+  <circle cx="960" cy="150" r="58" fill="url(#orb)" stroke="#0e0b0b" stroke-width="3"/>
+  <text x="960" y="146" text-anchor="middle" class="mono" font-size="10" fill="#0e0b0b">Night shift</text>
+  <text x="960" y="162" text-anchor="middle" class="mono" font-size="10" fill="#0e0b0b">online</text>
+</g>
+
+<!-- SFX -->
+<g class="sfx" style="animation-delay:2.4s">
+  <path d="M1010 330 l30 -40 l8 34 l40 -28 l-12 40 l46 -6 l-34 30 l38 22 l-46 6 l14 38 l-38 -22 l-12 40 l-16 -38 l-34 26 l6 -40 l-44 -2 l36 -24 l-30 -30 l44 6Z" fill="#f2df1a" stroke="#0e0b0b" stroke-width="4" stroke-linejoin="round"/>
+  <text x="1052" y="372" text-anchor="middle" class="serif" font-size="30" font-weight="900" font-style="italic" fill="#0e0b0b">THWIP!</text>
+</g>
+
+<!-- NAME: RISHIT -->
+<g class="serif" font-size="200" font-weight="900" fill="#f4efe6" stroke="#0e0b0b" stroke-width="5" paint-order="stroke fill" letter-spacing="-4">
+  <g transform="translate(10 10)" fill="#0e0b0b" stroke="none">
+    <text x="40" y="300" class="ch" style="animation-delay:.35s">RISHIT</text>
+  </g>
+  <text x="40" y="300" class="ch" style="animation-delay:.35s">RISHIT</text>
+</g>
+<!-- NAME: Juneja -->
+<g class="serif" font-size="128" font-weight="800" font-style="italic" fill="#f4efe6" stroke="#0e0b0b" stroke-width="4" paint-order="stroke fill">
+  <g transform="translate(7 7)" fill="#0e0b0b" stroke="none">
+    <text x="150" y="410" class="ch" style="animation-delay:.7s">Juneja</text>
+  </g>
+  <text x="150" y="410" class="ch" style="animation-delay:.7s">Juneja</text>
+</g>
+
+<!-- role + status -->
+<g class="slide" style="animation-delay:1.1s">
+  <text x="44" y="468" class="serif" font-size="30" font-style="italic" font-weight="500" fill="#f4efe6" stroke="#0e0b0b" stroke-width="3" paint-order="stroke fill">AI &amp; Automation Builder</text>
+  <text x="46" y="496" class="mono" font-size="12" fill="#ffe1da">Computer vision · Agentic systems · Security</text>
+</g>
+<g class="slide" style="animation-delay:1.3s">
+  <rect x="44" y="512" width="268" height="30" fill="#0e0b0b" transform="translate(3 3)"/>
+  <rect x="44" y="512" width="268" height="30" fill="#f4efe6" stroke="#0e0b0b" stroke-width="2"/>
+  <circle cx="62" cy="527" r="5" fill="#1f9d47" class="blink"/>
+  <text x="76" y="531" class="mono" font-size="11" fill="#0e0b0b">Available for internships</text>
+</g>
+
+<!-- stats -->
+<g class="slide" style="animation-delay:1.5s">
+  <rect x="700" y="438" width="460" height="92" fill="#0e0b0b" transform="translate(7 7)"/>
+  <rect x="700" y="438" width="460" height="92" fill="#f4efe6" stroke="#0e0b0b" stroke-width="3"/>
+  <path d="M853 438 V530 M1006 438 V530" stroke="#0e0b0b" stroke-width="3"/>
+  <g class="serif" font-size="44" font-weight="900" fill="#0e0b0b"><text x="716" y="486">07</text><text x="869" y="486">100+</text><text x="1022" y="486">36h</text></g>
+  <g class="mono" font-size="9.5" fill="#675b54"><text x="716" y="510">Builds shipped</text><text x="869" y="510">Faces on CCTV</text><text x="1022" y="510">Hackathon sprint</text></g>
+</g>
+
+<!-- stamp -->
+<g class="stamp">
+  <rect x="680" y="318" width="230" height="52" fill="#f4efe6" stroke="#0e0b0b" stroke-width="3"/>
+  <rect x="686" y="324" width="218" height="40" fill="none" stroke="#0e0b0b" stroke-width="1.5"/>
+  <text x="795" y="342" text-anchor="middle" class="mono" font-size="10.5" fill="#c8141f">Vol. 01 · Delhi Edition</text>
+  <text x="795" y="358" text-anchor="middle" class="mono" font-size="10.5" fill="#0e0b0b">The Rishit Experience</text>
+</g>
+
+<rect x="2" y="2" width="1196" height="556" fill="none" stroke="#0e0b0b" stroke-width="4"/>
 </svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="336" viewBox="0 0 1200 336" role="img" aria-label="Terminal: whoami, CTF wargames, nmap, hacker-pentester-ai">
+<style>
+text{font-family:ui-monospace,'SF Mono','IBM Plex Mono',Menlo,Consolas,monospace;font-size:17px}
+.c{fill:#ece4d9}.o{fill:#b3a79e}.p{fill:#35b4ea}.r{fill:#ff2a1a;font-weight:700}
+.caret{animation:caret 1s steps(1) infinite}@keyframes caret{50%{opacity:0}}
+.k0{animation:k0 14.0s linear infinite}@keyframes k0{0%,2.86%{transform:translateX(0)}5.43%,100%{transform:translateX(102px)}}
+.s0{animation:s0 14.0s steps(1) infinite}@keyframes s0{0%{opacity:0}2.86%{opacity:1}96%{opacity:1}}
+.s1{animation:s1 14.0s steps(1) infinite}@keyframes s1{0%{opacity:0}7.93%{opacity:1}96%{opacity:1}}
+.k2{animation:k2 14.0s linear infinite}@keyframes k2{0%,11.50%{transform:translateX(0)}17.93%,100%{transform:translateX(194px)}}
+.s2{animation:s2 14.0s steps(1) infinite}@keyframes s2{0%{opacity:0}11.50%{opacity:1}96%{opacity:1}}
+.s3{animation:s3 14.0s steps(1) infinite}@keyframes s3{0%{opacity:0}20.43%{opacity:1}96%{opacity:1}}
+.k4{animation:k4 14.0s linear infinite}@keyframes k4{0%,24.00%{transform:translateX(0)}34.29%,100%{transform:translateX(286px)}}
+.s4{animation:s4 14.0s steps(1) infinite}@keyframes s4{0%{opacity:0}24.00%{opacity:1}96%{opacity:1}}
+.s5{animation:s5 14.0s steps(1) infinite}@keyframes s5{0%{opacity:0}36.79%{opacity:1}96%{opacity:1}}
+.k6{animation:k6 14.0s linear infinite}@keyframes k6{0%,40.36%{transform:translateX(0)}51.93%,100%{transform:translateX(317px)}}
+.s6{animation:s6 14.0s steps(1) infinite}@keyframes s6{0%{opacity:0}40.36%{opacity:1}96%{opacity:1}}
+.s7{animation:s7 14.0s steps(1) infinite}@keyframes s7{0%{opacity:0}54.43%{opacity:1}96%{opacity:1}}
+.k8{animation:k8 14.0s linear infinite}@keyframes k8{0%,58.00%{transform:translateX(0)}63.14%,100%{transform:translateX(163px)}}
+.s8{animation:s8 14.0s steps(1) infinite}@keyframes s8{0%{opacity:0}58.00%{opacity:1}96%{opacity:1}}
+.s9{animation:s9 14.0s steps(1) infinite}@keyframes s9{0%{opacity:0}65.64%{opacity:1}96%{opacity:1}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;opacity:1!important}[class^=k]{display:none}}
+</style>
+<rect x="12" y="12" width="1186" height="324" fill="#c8141f"/>
+<rect x="2" y="2" width="1186" height="324" fill="#0b0909" stroke="#f4efe6" stroke-width="3"/>
+<rect x="2" y="2" width="1186" height="36" fill="#141010" stroke="#f4efe6" stroke-width="3"/>
+<circle cx="24" cy="20" r="6" fill="#c8141f"/><circle cx="44" cy="20" r="6" fill="#3a302c"/><circle cx="64" cy="20" r="6" fill="#3a302c"/>
+<text x="88" y="25" class="o" style="font-size:13px">rishit@shadow · zsh · break it to know it</text>
+<g class="s0"><text x="24" y="74"><tspan class="p">$ </tspan><tspan class="c">whoami</tspan></text><g class="k0"><rect x="44" y="57" width="122" height="23" fill="#0b0909"/><rect x="44" y="59" width="10" height="20" fill="#35b4ea" class="caret"/></g></g>
+<text x="24" y="98" class="s1 o">rishit · builder, breaker, night shift</text>
+<g class="s2"><text x="24" y="122"><tspan class="p">$ </tspan><tspan class="c">ssh wargame@ctf</tspan></text><g class="k2"><rect x="44" y="105" width="214" height="23" fill="#0b0909"/><rect x="44" y="107" width="10" height="20" fill="#35b4ea" class="caret"/></g></g>
+<text x="24" y="146" class="s3 o"># hidden credentials recovered, level by level</text>
+<g class="s4"><text x="24" y="170"><tspan class="p">$ </tspan><tspan class="c">nmap -sV --reason target</tspan></text><g class="k4"><rect x="44" y="153" width="306" height="23" fill="#0b0909"/><rect x="44" y="155" width="10" height="20" fill="#35b4ea" class="caret"/></g></g>
+<text x="24" y="194" class="s5 o"># network mapped · wireless audited with Aircrack-ng</text>
+<g class="s6"><text x="24" y="218"><tspan class="p">$ </tspan><tspan class="c">./hacker-pentester-ai --36h</tspan></text><g class="k6"><rect x="44" y="201" width="337" height="23" fill="#0b0909"/><rect x="44" y="203" width="10" height="20" fill="#35b4ea" class="caret"/></g></g>
+<text x="24" y="242" class="s7 o"># scan output piped into AI analysis · certified</text>
+<g class="s8"><text x="24" y="266"><tspan class="p">$ </tspan><tspan class="c">echo $STATUS</tspan></text><g class="k8"><rect x="44" y="249" width="183" height="23" fill="#0b0909"/><rect x="44" y="251" width="10" height="20" fill="#35b4ea" class="caret"/></g></g>
+<text x="24" y="290" class="s9 r">open to internships &amp; collaborations — let's build something quiet.</text>
+</svg>
